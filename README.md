@@ -1,2 +1,0 @@
-# scf-demo
-serveless demo

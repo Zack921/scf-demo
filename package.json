@@ -1,24 +1,21 @@
 {
-  "name": "scf-demo",
+  "name": "scf-koa-demo",
   "version": "1.0.0",
-  "description": "serveless demo",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Best921/scf-demo.git"
+    "url": "git@git.code.oa.com:zackguo/scf-koa-demo.git"
   },
-  "author": "zack",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Best921/scf-demo/issues"
-  },
-  "homepage": "https://github.com/Best921/scf-demo#readme",
   "dependencies": {
-    "axios": "^0.19.0",
-    "express": "^4.17.1"
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "serverlessplus": "0.0.10"
   }
 }
